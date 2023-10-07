@@ -1,0 +1,155 @@
+
+
+
+body{
+    font-family: sans-serif;
+    color: white;
+    min-height: 100vh;
+    
+  background: linear-gradient(
+    135deg,
+    rgba(47, 145, 224, 0.91),
+    rgba(7, 31, 51, 0.97)
+  );
+  
+}
+
+.dark{
+    background: #343541;
+}
+
+h5{
+    margin-left: 35%;
+    font-weight: bold;
+    
+}
+
+
+
+body{
+    font-family: sans-serif;
+}
+
+.cumplido{
+    font-size: 25px;
+    color: green;
+    font-weight: bold;
+    margin-left: -70px;
+}
+
+.delete{
+    margin-left: 20px;
+    color: red;
+    cursor: pointer;
+}
+
+.update{
+    cursor: pointer;
+}
+
+.mn{
+    margin-left: 22%;
+}
+
+h4{
+    color: green;
+    text-align: center;
+}
+
+
+
+.completado{
+    
+    color: rgb(31, 187, 31);
+    
+}
+
+.select{
+    text-decoration: none;
+
+}
+
+
+
+#hamburger{
+    width: 70px;
+    height: 70px;
+    background-color: transparent;
+    border-radius: 50%;
+    border: none;
+    position: fixed;
+    right: 0;
+    bottom: 1vh;
+    z-index: 1;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+
+
+.emojiLuna{
+    position: absolute;
+    top: 10px;
+    left: 12px;
+}
+
+.emojiSol{
+    position: absolute;
+    top: 12px;
+    left: 12px;
+}
+
+.dark{
+    background-color: #343541;
+    color: white;
+}
+
+.emoji{
+    font-size: 200%;
+}
+
+.labelText{
+    color: black;
+}
+
+
+#message{
+    color: rgb(27, 189, 27);
+}
+
+.labelDiv{
+    overflow: hidden;
+}
+
+
+
+@media (max-width: 581px){
+    
+
+    .inputNumber{
+        max-width: 35%;
+    }
+
+    #hamburger{
+        top: 3vh !important;
+        width: 40px !important;
+        height: 40px !important;
+        
+    }
+
+    .emoji{
+        font-size: 20px !important;
+        top: 6px !important;
+        left: 6px !important;
+    }
+
+    
+}
+
+@media (max-width: 498px) and (min-width: 300px){
+    
+
+    .inputNumber{
+        max-width: 35%;
+    }
+}
